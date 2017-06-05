@@ -13,18 +13,20 @@ Selected Tag {
 
 /*Colors can be names, or codes*/
 
+/*MOST COMMON HEX CODES*/
+
 h1{
-  color: blue;
+  color: purple;
 }
-
-li {
-  color: rgb(0,200,0);
+li{
+  /*red, green ,blue*/
+  color: rgb(8, 84, 1);
 }
-
 p{
-  color: #000000;
+  color: #42c8f4;
 }
-
 h4{
-  color: rgba(13,90,140,0.5)
+  /*red, green, blue, alpha(how dark or how transparent a color is 0 - transparent
+  1 - opaque )*/
+  color: rgba(255, 97, 0, 1);
 }

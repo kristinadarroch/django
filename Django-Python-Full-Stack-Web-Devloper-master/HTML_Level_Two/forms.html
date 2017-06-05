@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- METHOD = GET -->
+    <form action="https://www.facebook.com" method="get">
+      <p>Enter Text:</p>
+
+<input type="text" name="userinput" value="">
+<input type="submit" name="" value="Click Me">
+  </form>
+
+  <form>
+    <h1>Choose Color</h1>
+    <h2>Click on Button</h2>
+    <input type="color" name="" value="">
+  </form>
+
+  <form>
+    <p>enter some text</p>
+<label>
+  Enter text:
+    <input type="text" name="" value="" placeholder="not required">
+  </form>
+</label>
+
+
+<form>
+  <!-- the for links to an id -->
+  <label for="userinput">Enter Input:</label>
+<!--use a placeholder instead of a value -->
+  <input id="userinput" type="text" name="" placeholder="required" required>
+  <input type="submit" name="" value="submit">
+</form>
+
+<p>-----------------------------------------------------------------------</p>
+<!-- value is for your backend -->
+<h1>Hotel Feedback form</h1>
+<form method="get">
+<h3>Are you from inside the US or outisde</h3>
+<!-- if you want to link radio buttons together (like have it to where you can
+only click one at a time), give it the same name -->
+<label for="inusa">Inside:</label>
+<input id="inusa"type="radio" name="loc" value="inside">
+
+<label for="outusa">Outside: </label>
+<input id="outusa" type="radio" name="loc" value="outside">
+
+<h2>How was your service?</h2>
+<!-- drop down menu = select -->
+<select name="stars">
+  <option value="Great">3</option>
+    <option value="Okay">2</option>
+    <option value="Bad">1</option>
+</select>
+
+<h2>any other feedback?</h2>
+<textarea name="mytext" rows="8" cols="80"></textarea>
+
+<input type="submit" name="" value="SUBMIT">
+
+
+
+</form>
+  </body>
+</html>
