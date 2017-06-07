@@ -74,11 +74,12 @@ null
 // Escape characters
 "hello \n start a new line"
 "hello \t give me a tab"
-"hello \"quotes\" "
+"hello \"quotes\" " //way to input notes inside a javascript string
 
 // Index individual characters/elements (starts at zero)
-"hello"[0]
-"hello"[4]
+// STARTS AT 0
+"hello"[0] //grabs the character h
+"hello"[4] //grabs the character o
 
 ////////////////////
 // VARIABLES //////
