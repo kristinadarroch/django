@@ -4,22 +4,21 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 
 #top{
   border: 4px solid blue;
-
+  /*25% of the screen space*/
   width: 25%;
-
-  /*Top,Right, Bottom, Left*/
-  margin: 10px 20px 100px 400px;
-
   text-align: center;
-}
+  /*top, right, bottom, left*/
+  /*margin: 10px 20px 100px 400px;*/
 
+/*even on both sides*/
+  margin: auto;
+
+}
 #bottom{
   border: 4px solid red;
   width: 50%;
-
-  /*even margins*/
-  margin: 200px;
-  /*margin: auto;*/
-
   padding: 200px;
+  text-align: center;
 }
+
+/*content, padding, border, margin*/
