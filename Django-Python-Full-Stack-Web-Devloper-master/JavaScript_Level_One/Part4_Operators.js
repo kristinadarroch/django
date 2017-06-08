@@ -41,6 +41,8 @@ false
 
 // It returned True! Although this may cause errors for some programs!
 
+
+// TYPE COERCION
 // JS uses type coercion! This means it will try it's best to convert objects
 // to similar data types to perform the comparison! A lot of times you don't
 // actually want that!
@@ -79,7 +81,7 @@ NaN == NaN; // false
 
 // Logical Operators allow us to combine multiple comparison Operators!
 
-// AND is written with &&
+// *******AND is written with &&
 // Need both conditions to be true to return true
 1 === 1 && 2 ===2;
 
@@ -90,7 +92,7 @@ NaN == NaN; // false
 // NOT is written with !
 // Basically a way of checking the opposite of a condition
 !(1===1);
-// Can also stack these (not super common)
+// Can also stack these (not super common) - two !! equals a true
 !!(1===1);
 
 ////////////////////////////////
