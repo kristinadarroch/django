@@ -12,7 +12,7 @@
 // IF //
 ///////
 
-// Here is the syntax for an if statement in JavaScript:
+// Here is the syntax for an IF STATEMENT in JavaScript:
 // if (condition){
 //     // Execute some code
 // }
