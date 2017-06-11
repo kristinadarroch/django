@@ -1,6 +1,10 @@
 // Alright so we've discussed the way you can grab html elements, let's
 // see how we can interact with them in Javascript!
 
+//THE DOM ALLOWS US TO INTERFACE OUR JAVASCRIPT CODE TO INTERACT
+//WITH OUR HTML AND CSS
+
+
 // Type this into your console:
 
 // Grab the Header with h1
@@ -9,7 +13,7 @@ var header = document.querySelector("h1")
 // Then you can interface with the object.
 
 // Interface with the style.
-//You will see a ton of options show up!
+// You will see a ton of options show up!
 header.style.color = 'red'
 
 // Now let's connect it to the script to
@@ -17,7 +21,7 @@ header.style.color = 'red'
 
 // Random Color Function:
 
-// http://stackoverflow.com/questions/1484506/random-color-generator-in-javascript
+// http://stackoverflow.com/questions/1484506/random-color-generator-in-jav ascript
 function getRandomColor(){
   var letters = "0123456789ABCDEF";
   var color = '#';
